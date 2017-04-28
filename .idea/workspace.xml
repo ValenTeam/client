@@ -2,9 +2,27 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c4cf062d-e0c7-4939-8aeb-8e100bcb0126" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/assets/www/pages/pacientesDelMedico.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/pages/pacientesDelMedico.html" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/pages/pacientesDelMedico.html" afterPath="$PROJECT_DIR$/www/pacientesDelMedico.html" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/assets/www/pacientesDelMedico.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/assets/www/pages/login.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/pages/historiaClinica.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/browser/www/pages/login.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/pages/historialMedicionesPaciente.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/pages/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/pages/login.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/pages/perfilPaciente.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/pages/trash/blank.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/pages/trash/buttons.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/pages/trash/flot.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/pages/trash/forms copia.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/pages/trash/forms.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/pages/trash/grid.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/pages/trash/icons.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/pages/trash/morris.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/pages/trash/notifications.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/pages/trash/panels-wells.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/pages/trash/tables.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/pages/trash/typography.html" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/www/pages/historiaClinica.html" afterPath="$PROJECT_DIR$/www/historiaClinica.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/.gradle/2.14.1/taskArtifacts/cache.properties.lock" afterPath="$PROJECT_DIR$/platforms/android/.gradle/2.14.1/taskArtifacts/cache.properties.lock" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/.gradle/2.14.1/taskArtifacts/fileHashes.bin" afterPath="$PROJECT_DIR$/platforms/android/.gradle/2.14.1/taskArtifacts/fileHashes.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/.gradle/2.14.1/taskArtifacts/fileSnapshots.bin" afterPath="$PROJECT_DIR$/platforms/android/.gradle/2.14.1/taskArtifacts/fileSnapshots.bin" />
@@ -12,22 +30,18 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/.gradle/2.14.1/taskArtifacts/taskArtifacts.bin" afterPath="$PROJECT_DIR$/platforms/android/.gradle/2.14.1/taskArtifacts/taskArtifacts.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/browser/build/package.zip" afterPath="$PROJECT_DIR$/platforms/browser/build/package.zip" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/assets/www/index.html" afterPath="$PROJECT_DIR$/platforms/android/assets/www/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/assets/www/js/historiaClinicaPaciente.js" afterPath="$PROJECT_DIR$/platforms/android/assets/www/js/historiaClinicaPaciente.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/assets/www/js/login.js" afterPath="$PROJECT_DIR$/platforms/android/assets/www/js/login.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/assets/www/js/pacientesDelMedico.js" afterPath="$PROJECT_DIR$/platforms/android/assets/www/js/pacientesDelMedico.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/assets/www/js/userCookieValidator.js" afterPath="$PROJECT_DIR$/platforms/android/assets/www/js/userCookieValidator.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/assets/www/pages/historiaClinica.html" afterPath="$PROJECT_DIR$/platforms/android/assets/www/pages/historiaClinica.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/assets/www/pages/index.html" afterPath="$PROJECT_DIR$/platforms/android/assets/www/pages/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/assets/www/pages/login.html" afterPath="$PROJECT_DIR$/platforms/android/assets/www/pages/login.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/browser/www/index.html" afterPath="$PROJECT_DIR$/platforms/browser/www/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/browser/www/js/login.js" afterPath="$PROJECT_DIR$/platforms/browser/www/js/login.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/browser/www/pages/historiaClinica.html" afterPath="$PROJECT_DIR$/platforms/browser/www/pages/historiaClinica.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/browser/www/pages/index.html" afterPath="$PROJECT_DIR$/platforms/browser/www/pages/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/index.html" afterPath="$PROJECT_DIR$/www/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/browser/www/js/pacientesDelMedico.js" afterPath="$PROJECT_DIR$/platforms/browser/www/js/pacientesDelMedico.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/browser/www/js/userCookieValidator.js" afterPath="$PROJECT_DIR$/platforms/browser/www/js/userCookieValidator.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/browser/www/pacientesDelMedico.html" afterPath="$PROJECT_DIR$/platforms/browser/www/pacientesDelMedico.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/js/login.js" afterPath="$PROJECT_DIR$/www/js/login.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/js/pacientesDelMedico.js" afterPath="$PROJECT_DIR$/www/js/pacientesDelMedico.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/pages/historiaClinica.html" afterPath="$PROJECT_DIR$/www/pages/historiaClinica.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/pages/index.html" afterPath="$PROJECT_DIR$/www/pages/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/js/userCookieValidator.js" afterPath="$PROJECT_DIR$/www/js/userCookieValidator.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/pacientesDelMedico.html" afterPath="$PROJECT_DIR$/www/pacientesDelMedico.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -54,11 +68,41 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="login.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="login.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/www/js/login.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="379">
-              <caret line="39" column="62" lean-forward="false" selection-start-line="39" selection-start-column="62" selection-end-line="39" selection-end-column="62" />
+            <state relative-caret-position="132">
+              <caret line="10" column="43" lean-forward="false" selection-start-line="10" selection-start-column="43" selection-end-line="10" selection-end-column="43" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="userCookieValidator.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/www/js/userCookieValidator.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="270">
+              <caret line="18" column="43" lean-forward="false" selection-start-line="18" selection-start-column="43" selection-end-line="18" selection-end-column="43" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="historiaClinica.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/www/historiaClinica.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="205">
+              <caret line="231" column="45" lean-forward="false" selection-start-line="231" selection-start-column="45" selection-end-line="231" selection-end-column="45" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pacientesDelMedico.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/www/pacientesDelMedico.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="183">
+              <caret line="128" column="25" lean-forward="false" selection-start-line="128" selection-start-column="25" selection-end-line="128" selection-end-column="25" />
               <folding />
             </state>
           </provider>
@@ -74,43 +118,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="login.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/www/pages/login.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="608">
-              <caret line="94" column="0" lean-forward="false" selection-start-line="94" selection-start-column="0" selection-end-line="94" selection-end-column="0" />
-              <folding>
-                <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="config.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/platforms/browser/config.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="255">
               <caret line="17" column="9" lean-forward="false" selection-start-line="17" selection-start-column="9" selection-end-line="17" selection-end-column="9" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pacientesDelMedico.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/www/pacientesDelMedico.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="220" column="0" lean-forward="false" selection-start-line="220" selection-start-column="0" selection-end-line="220" selection-end-column="68" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pacientesDelMedico.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/www/js/pacientesDelMedico.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="464">
-              <caret line="38" column="33" lean-forward="false" selection-start-line="38" selection-start-column="33" selection-end-line="38" selection-end-column="33" />
               <folding />
             </state>
           </provider>
@@ -129,12 +141,29 @@
     <findStrings>
       <find>chromeArgs</find>
       <find>urll</find>
-      <find>url</find>
       <find>map</find>
       <find>ico</find>
-      <find>../</find>
-      <find>pages</find>
       <find>cordo</find>
+      <find>url</find>
+      <find>loca</find>
+      <find>&lt;script type=&quot;text/javascript&quot; src=&quot;js/hostPathChanger.js&quot;&gt;&lt;/script&gt;</find>
+      <find>href</find>
+      <find>../</find>
+      <find>/favicon.ico</find>
+      <find>l</find>
+      <find>login</find>
+      <find>plogin</find>
+      <find>palogin</find>
+      <find>paglogin</find>
+      <find>pagelogin</find>
+      <find>pageslogin</find>
+      <find>pages/login</find>
+      <find>pages/login.</find>
+      <find>pages/login.htm</find>
+      <find>pages/login.html</find>
+      <find>login.html</find>
+      <find>p</find>
+      <find>pages</find>
     </findStrings>
     <replaceStrings>
       <replace>http:www.hospital-arquisoft.top</replace>
@@ -142,6 +171,8 @@
     </replaceStrings>
     <dirStrings>
       <dir>$PROJECT_DIR$/platforms</dir>
+      <dir>$PROJECT_DIR$/www</dir>
+      <dir>$PROJECT_DIR$</dir>
     </dirStrings>
   </component>
   <component name="Git.Settings">
@@ -159,9 +190,12 @@
         <option value="$PROJECT_DIR$/www/pages/historiaClinica.html" />
         <option value="$PROJECT_DIR$/www/index.html" />
         <option value="$PROJECT_DIR$/platforms/browser/config.xml" />
-        <option value="$PROJECT_DIR$/www/js/login.js" />
         <option value="$PROJECT_DIR$/platforms/android/AndroidManifest.xml" />
+        <option value="$PROJECT_DIR$/www/js/userCookieValidator.js" />
         <option value="$PROJECT_DIR$/www/js/pacientesDelMedico.js" />
+        <option value="$PROJECT_DIR$/www/historiaClinica.html" />
+        <option value="$PROJECT_DIR$/www/pacientesDelMedico.html" />
+        <option value="$PROJECT_DIR$/www/js/login.js" />
       </list>
     </option>
   </component>
@@ -217,24 +251,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="www" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="clienteArquisoft" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="clienteArquisoft" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="www" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="pages" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -339,6 +355,7 @@
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/www" />
+      <recent name="$PROJECT_DIR$/www/pages" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -466,13 +483,13 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6371000" />
+    <option name="totallyTimeSpent" value="7782000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="773" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2494043" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32954547" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -716,34 +733,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="608">
           <caret line="94" column="0" lean-forward="false" selection-start-line="94" selection-start-column="0" selection-end-line="94" selection-end-column="0" />
-          <folding>
-            <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/js/hostPathChanger.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="5" column="3" lean-forward="false" selection-start-line="5" selection-start-column="3" selection-end-line="5" selection-end-column="3" />
-          <folding>
-            <element signature="e#0#46#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/js/historiaClinicaPaciente.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="212">
-          <caret line="103" column="33" lean-forward="false" selection-start-line="103" selection-start-column="30" selection-end-line="103" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/pages/historiaClinica.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1388">
-          <caret line="422" column="71" lean-forward="false" selection-start-line="422" selection-start-column="71" selection-end-line="422" selection-end-column="71" />
           <folding />
         </state>
       </provider>
@@ -758,6 +747,40 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/platforms/android/AndroidManifest.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="118" lean-forward="false" selection-start-line="1" selection-start-column="113" selection-end-line="1" selection-end-column="118" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/js/historiaClinicaPaciente.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="212">
+          <caret line="121" column="47" lean-forward="false" selection-start-line="121" selection-start-column="45" selection-end-line="121" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/js/pacientesDelMedico.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="38" lean-forward="false" selection-start-line="3" selection-start-column="34" selection-end-line="3" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/js/hostPathChanger.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="5" column="3" lean-forward="false" selection-start-line="5" selection-start-column="3" selection-end-line="5" selection-end-column="3" />
+          <folding>
+            <element signature="e#0#46#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/platforms/browser/config.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
@@ -768,32 +791,32 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/www/pacientesDelMedico.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="220" column="0" lean-forward="false" selection-start-line="220" selection-start-column="0" selection-end-line="220" selection-end-column="68" />
+        <state relative-caret-position="183">
+          <caret line="128" column="25" lean-forward="false" selection-start-line="128" selection-start-column="25" selection-end-line="128" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/historiaClinica.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="205">
+          <caret line="231" column="45" lean-forward="false" selection-start-line="231" selection-start-column="45" selection-end-line="231" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/js/userCookieValidator.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="43" lean-forward="false" selection-start-line="18" selection-start-column="43" selection-end-line="18" selection-end-column="43" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/www/js/login.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="379">
-          <caret line="39" column="62" lean-forward="false" selection-start-line="39" selection-start-column="62" selection-end-line="39" selection-end-column="62" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/platforms/android/AndroidManifest.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="118" lean-forward="false" selection-start-line="1" selection-start-column="113" selection-end-line="1" selection-end-column="118" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/js/pacientesDelMedico.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="464">
-          <caret line="38" column="33" lean-forward="false" selection-start-line="38" selection-start-column="33" selection-end-line="38" selection-end-column="33" />
+        <state relative-caret-position="132">
+          <caret line="10" column="43" lean-forward="false" selection-start-line="10" selection-start-column="43" selection-end-line="10" selection-end-column="43" />
           <folding />
         </state>
       </provider>

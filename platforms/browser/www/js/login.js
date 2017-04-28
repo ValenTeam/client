@@ -8,9 +8,14 @@ $(document).ready(function() {
     }
     else{
         if (token.userGroup == 'medicos')
-            window.location.href = "/pages/pacientesDelMedico.html";
-        else if (token.userGroup == 'pacientes')
-            window.location.href = "/pages/perfilPaciente.html";
+            window.location = "pacientesDelMedico.html";
+        else if (token.userGroup == 'pacientes'){
+            swal(
+                'Oops...',
+                'This app does not support patients yet.',
+                'error'
+            )
+        }
     }
     $("#loginButton").click( function() {
         if (!verifyInputs()) return;
@@ -40,20 +45,11 @@ $(document).ready(function() {
                     window.location = "pacientesDelMedico.html";
                     // window.location.href = window.hostUrl+"/pages/pacientesDelMedico.html";
                 else {
-                    var settings = {
-                        "async": true,
-                        "crossDomain": true,
-                        "url": window.hostUrl+"/pacientes/"+response.userId,
-                        "method": "GET",
-                        "headers": {
-                            "x-auth-token": response.token,
-                            "cache-control": "no-cache"
-                        }
-                    };
-                    $.ajax(settings).done(function (response) {
-                        window.localStorage.setItem('patient', JSON.stringify(response));
-                        window.location.href = "/pages/perfilPaciente.html";
-                    });
+                    swal(
+                        'Oops...',
+                        'This app does not support patients yet.',
+                        'error'
+                    )
                 }
             })
             .fail(function (xhr, status, error) {

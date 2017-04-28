@@ -38,7 +38,7 @@ $(document).ready(function() {
         //alert( 'You clicked on '+data+'\'s row' + listaPacientes[data].name );
         var txt = JSON.stringify(listaPacientes[data]);
         window.localStorage.setItem("paciente", txt);
-        window.location ="pages/historiaClinica.html";
+        window.location ="historiaClinica.html";
     } );
 
 });

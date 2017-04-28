@@ -4,7 +4,7 @@
 $(document).ready(function()    {
     var token = JSON.parse(window.localStorage.getItem('user'));
     if (token == null || token.expireTimeStamp < new Date().getTime()){
-        window.location.href = "/pages/login.html";
+        window.location = "index.html";
     }
     else{
         $("#pageBody").show();
@@ -17,6 +17,6 @@ $(document).ready(function()    {
     function logOut() {
         localStorage.removeItem('user');
         localStorage.removeItem('patient');
-        window.location.href = "/";
+        window.location = "index.html";
     }
 });
