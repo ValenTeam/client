@@ -8,7 +8,7 @@ $(document).ready(function() {
     var settings = {
         "async": true,
         "crossDomain": true,
-        "url": "/medicos/"+token.userId+"/pacientes",
+        "url": window.hostUrl+"/medicos/"+token.userId+"/pacientes",
         "method": "GET",
         "headers": {
             "x-auth-token": token.token,
@@ -38,7 +38,7 @@ $(document).ready(function() {
         //alert( 'You clicked on '+data+'\'s row' + listaPacientes[data].name );
         var txt = JSON.stringify(listaPacientes[data]);
         window.localStorage.setItem("paciente", txt);
-        window.location.href ="/pages/historiaClinica.html";s
+        window.location ="pages/historiaClinica.html";
     } );
 
 });

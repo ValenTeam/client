@@ -37,7 +37,8 @@ $(document).ready(function() {
             .done(function (response) {
                 window.localStorage.setItem('user', JSON.stringify(response));
                 if ($('input[name=optradio]:checked', '#loginForm').val() == 'medico')
-                    window.location.href = "/pages/pacientesDelMedico.html";
+                    window.location = "pacientesDelMedico.html";
+                    // window.location.href = window.hostUrl+"/pages/pacientesDelMedico.html";
                 else {
                     var settings = {
                         "async": true,
