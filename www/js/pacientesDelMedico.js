@@ -8,7 +8,7 @@ $(document).ready(function() {
     var settings = {
         "async": true,
         "crossDomain": true,
-        "url": "/medicos/"+token.userId+"/pacientes",
+        "url": window.hostUrl+"/medicos/"+token.userId+"/pacientes",
         "method": "GET",
         "headers": {
             "x-auth-token": token.token,

@@ -15,7 +15,7 @@ $(document).ready(function () {
     var settings = {
         "async": true,
         "crossDomain": true,
-        "url": "/medicion/" + patient.id,
+        "url": window.hostUrl+"/medicion/" + patient.id,
         "method": "GET",
         "headers": {
             "x-auth-token": token.token,
@@ -65,7 +65,7 @@ $(document).ready(function () {
             "async": true,
             "crossDomain": true,
             "data": JSON.stringify(body),
-            "url": "/sendConcejo/" + patient.id + "/" + token.userId,
+            "url": window.hostUrl+"/sendConcejo/" + patient.id + "/" + token.userId,
             "method": "POST",
             "headers": {
                 "x-auth-token": token.token,
@@ -101,7 +101,7 @@ $(document).ready(function () {
         var settings = {
             "async": true,
             "crossDomain": true,
-            "url": "/medicion/" + patient.id,
+            "url": window.hostUrl+"/medicion/" + patient.id,
             "method": "GET",
             "headers": {
                 "x-auth-token": token.token,
