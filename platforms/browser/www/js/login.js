@@ -1,7 +1,7 @@
 /**
  * Created by felipeplazas on 4/25/17.
  */
-$(document).ready(function()    {
+$(document).ready(function() {
     var token = JSON.parse(window.localStorage.getItem('user'));
     if (token == null || token.expireTimeStamp < new Date().getTime()){
         $("#pageBody").show();
@@ -19,10 +19,12 @@ $(document).ready(function()    {
             "role":$('input[name=optradio]:checked', '#loginForm').val(),
             "password":$("#passwordField").val()
         };
+        var urll = window.hostUrl+"/login"
+        console.log(urll);
         var settings = {
             "async": true,
             "crossDomain": true,
-            "url": "/login",
+            "url": urll,
             "method": "POST",
             "data":JSON.stringify(body),
             "headers": {
@@ -40,7 +42,7 @@ $(document).ready(function()    {
                     var settings = {
                         "async": true,
                         "crossDomain": true,
-                        "url": "http://localhost:9000/pacientes/"+response.userId,
+                        "url": window.hostUrl+"/pacientes/"+response.userId,
                         "method": "GET",
                         "headers": {
                             "x-auth-token": response.token,
