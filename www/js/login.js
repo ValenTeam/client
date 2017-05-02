@@ -10,11 +10,7 @@ $(document).ready(function() {
         if (token.userGroup == 'medicos')
             window.location = "pacientesDelMedico.html";
         else if (token.userGroup == 'pacientes'){
-            swal(
-                'Oops...',
-                'This app does not support patients yet.',
-                'error'
-            )
+            window.location = "perfilPaciente.html";
         }
     }
     $("#loginButton").click( function() {
@@ -25,7 +21,6 @@ $(document).ready(function() {
             "password":$("#passwordField").val()
         };
         var urll = window.hostUrl+"/login"
-        console.log(urll);
         var settings = {
             "async": true,
             "crossDomain": true,
@@ -43,13 +38,21 @@ $(document).ready(function() {
                 window.localStorage.setItem('user', JSON.stringify(response));
                 if ($('input[name=optradio]:checked', '#loginForm').val() == 'medico')
                     window.location = "pacientesDelMedico.html";
-                    // window.location.href = window.hostUrl+"/pages/pacientesDelMedico.html";
                 else {
-                    swal(
-                        'Oops...',
-                        'This app does not support patients yet.',
-                        'error'
-                    )
+                    var settings = {
+                        "async": true,
+                        "crossDomain": true,
+                        "url": window.hostUrl+"/pacientes/"+response.userId,
+                        "method": "GET",
+                        "headers": {
+                            "x-auth-token": response.token,
+                            "cache-control": "no-cache"
+                        }
+                    };
+                    $.ajax(settings).done(function (response) {
+                        window.localStorage.setItem('patient', JSON.stringify(response));
+                        window.location = "perfilPaciente.html";
+                    });
                 }
             })
             .fail(function (xhr, status, error) {
@@ -60,7 +63,6 @@ $(document).ready(function() {
                 )
             });
     });
-
 
     function verifyInputs() {
         var email = $("#emailField").val();

@@ -2,6 +2,7 @@
  * Created by felipeplazas on 4/23/17.
  */
 $(document).ready(function () {
+    window.hostUrl = "http://www.hospital-arquisoft.top";
     var patient = localStorage.getItem("patient");
     patient = JSON.parse(patient);
     $("#antecedentesPaciente").append(patient.antecedentes);
@@ -10,17 +11,6 @@ $(document).ready(function () {
     $("#patientAddress").append(patient.address);
     $("#patientId").append(patient.cedula);
     var token = JSON.parse(window.localStorage.getItem('user'));
-
-    var settings = {
-        "async": true,
-        "crossDomain": true,
-        "url": "/medicion/" + patient.id,
-        "method": "GET",
-        "headers": {
-            "x-auth-token": token.token,
-            "cache-control": "no-cache"
-        }
-    }
 
     function updateConcejos() {
         var table3 = $('#consejosTable').DataTable();

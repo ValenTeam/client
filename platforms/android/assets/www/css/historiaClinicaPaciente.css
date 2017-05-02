@@ -1,6 +1,5 @@
-@media(max-width: 508px){
-    .measureChart{
-        width: 320px !important;
-        height: 380px !important;
-    }
+
+.measureChart{
+    width: 95% !important;
+    height: 380px !important;
 }

@@ -2,6 +2,7 @@
  * Created by felipeplazas on 4/23/17.
  */
 $(document).ready(function () {
+    window.hostUrl = "http://www.hospital-arquisoft.top";
     var patient = localStorage.getItem("paciente");
     patient = JSON.parse(patient);
     $("#antecedentesPaciente").append(patient.antecedentes);
@@ -143,5 +144,30 @@ $(document).ready(function () {
             chart3.draw(data3, options);
         });
     }
+
+    Pusher.logToConsole = false;
+
+    var pusher = new Pusher('9000a2bfc63c687333a0', {
+        encrypted: true
+    });
+
+    var channel = pusher.subscribe(token.userId);
+    channel.bind('my-event', function(data) {
+        console.log(data);
+        swal({
+            title: 'ALERTA',
+            text: "Tu paciente "+ data.name +" "+data.apellido+" ha generado una alerta roja",
+            type: 'warning',
+            showCancelButton: true,
+            confirmButtonColor: '#2ECC71',
+            cancelButtonColor: '#F22613',
+            confirmButtonText: 'Ver perfil paciente',
+            cancelButtonText: 'Ignorar'
+        }).then(function () {
+            var txt = JSON.stringify(data);
+            window.localStorage.setItem("paciente", txt);
+            window.location ="historiaClinica.html";
+        })
+    });
 
 });
