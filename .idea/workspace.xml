@@ -9,15 +9,8 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/.gradle/2.14.1/taskArtifacts/taskArtifacts.bin" afterPath="$PROJECT_DIR$/platforms/android/.gradle/2.14.1/taskArtifacts/taskArtifacts.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/browser/build/package.zip" afterPath="$PROJECT_DIR$/platforms/browser/build/package.zip" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/assets/www/historiaClinica.html" afterPath="$PROJECT_DIR$/platforms/android/assets/www/historiaClinica.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/assets/www/historialMedicionesPaciente.html" afterPath="$PROJECT_DIR$/platforms/android/assets/www/historialMedicionesPaciente.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/assets/www/js/historiaClinicaPaciente.js" afterPath="$PROJECT_DIR$/platforms/android/assets/www/js/historiaClinicaPaciente.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/assets/www/js/perfilPaciente.js" afterPath="$PROJECT_DIR$/platforms/android/assets/www/js/perfilPaciente.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/assets/www/perfilPaciente.html" afterPath="$PROJECT_DIR$/platforms/android/assets/www/perfilPaciente.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/browser/www/js/perfilPaciente.js" afterPath="$PROJECT_DIR$/platforms/browser/www/js/perfilPaciente.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/browser/www/perfilPaciente.html" afterPath="$PROJECT_DIR$/platforms/browser/www/perfilPaciente.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/js/perfilPaciente.js" afterPath="$PROJECT_DIR$/www/js/perfilPaciente.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/perfilPaciente.html" afterPath="$PROJECT_DIR$/www/perfilPaciente.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/browser/www/js/historiaClinicaPaciente.js" afterPath="$PROJECT_DIR$/platforms/browser/www/js/historiaClinicaPaciente.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/js/historiaClinicaPaciente.js" afterPath="$PROJECT_DIR$/www/js/historiaClinicaPaciente.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -32,6 +25,16 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="historiaClinicaPaciente.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/www/js/historiaClinicaPaciente.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="204">
+              <caret line="118" column="45" lean-forward="false" selection-start-line="118" selection-start-column="45" selection-end-line="118" selection-end-column="45" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="perfilPaciente.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/www/perfilPaciente.html">
           <provider selected="true" editor-type-id="text-editor">
@@ -51,11 +54,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="perfilPaciente.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="perfilPaciente.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/www/js/perfilPaciente.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="23">
-              <caret line="33" column="0" lean-forward="true" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
+              <caret line="33" column="0" lean-forward="false" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -136,9 +139,9 @@
         <option value="$PROJECT_DIR$/www/historialMedicionesPaciente.html" />
         <option value="$PROJECT_DIR$/www/js/medicionesPaciente.js" />
         <option value="$PROJECT_DIR$/www/historiaClinica.html" />
-        <option value="$PROJECT_DIR$/www/js/historiaClinicaPaciente.js" />
         <option value="$PROJECT_DIR$/www/perfilPaciente.html" />
         <option value="$PROJECT_DIR$/www/js/perfilPaciente.js" />
+        <option value="$PROJECT_DIR$/www/js/historiaClinicaPaciente.js" />
       </list>
     </option>
   </component>
@@ -467,12 +470,12 @@
       <workItem from="1493416827123" duration="229000" />
       <workItem from="1493679369556" duration="4395000" />
       <workItem from="1494202549743" duration="7610000" />
-      <workItem from="1494259574496" duration="609000" />
+      <workItem from="1494259574496" duration="1508000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20707000" />
+    <option name="totallyTimeSpent" value="21606000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="773" extended-state="6" />
@@ -770,14 +773,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/www/js/historiaClinicaPaciente.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="233" column="19" lean-forward="false" selection-start-line="233" selection-start-column="19" selection-end-line="233" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/www/perfilPaciente.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="599">
@@ -798,7 +793,15 @@
     <entry file="file://$PROJECT_DIR$/www/js/perfilPaciente.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="23">
-          <caret line="33" column="0" lean-forward="true" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
+          <caret line="33" column="0" lean-forward="false" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/js/historiaClinicaPaciente.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="118" column="45" lean-forward="false" selection-start-line="118" selection-start-column="45" selection-end-line="118" selection-end-column="45" />
           <folding />
         </state>
       </provider>

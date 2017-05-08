@@ -16,7 +16,7 @@ $(document).ready(function () {
     var settings = {
         "async": true,
         "crossDomain": true,
-        "url": window.hostUrl+"/medicion/" + patient.id,
+        "url": window.hostUrl+"/medicion/important/" + patient.id,
         "method": "GET",
         "headers": {
             "x-auth-token": token.token,
