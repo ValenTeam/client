@@ -25,7 +25,12 @@ $(document).ready(function () {
     }
 
     function updateConcejos() {
-        var table3 = $('#consejosTable').DataTable();
+        var table3 = $('#consejosTable').DataTable({
+            "bFilter": true,
+            "bInfo": false,
+            "bLengthChange": false,
+            "order": [[ 1, "desc" ]]
+        });
         table3.clear();
         patient.historiaClinica.consejos.forEach(function (consejo) {
             var date = new Date(consejo.fecha);
@@ -36,7 +41,12 @@ $(document).ready(function () {
     updateConcejos();
 
     $.ajax(settings).done(function (data) {
-        var table2 = $('#medicionesTable').DataTable();
+        var table2 = $('#medicionesTable').DataTable({
+            "bFilter": true,
+            "bInfo": false,
+            "bLengthChange": false,
+            "order": [[ 0, "desc" ]]
+        });
         data.forEach(function (medicion) {
             var date = new Date(medicion.openTimestamp);
             table2.row.add([date.toLocaleString(), medicion.valorMedicion, medicion.colorMedicion, medicion.tipoMedicion]).draw();
@@ -55,6 +65,10 @@ $(document).ready(function () {
         else {
             sendConcejo($("#concejoTxt").val());
         }
+    });
+
+    $("#icon1").click(function () {
+        window.location = "pacientesDelMedico.html";
     });
 
     function sendConcejo(concejoTxt) {
@@ -138,6 +152,10 @@ $(document).ready(function () {
             var chart = new google.visualization.LineChart(document.getElementById('curve_chart'));
             var chart2 = new google.visualization.LineChart(document.getElementById('curve_chart2'));
             var chart3 = new google.visualization.LineChart(document.getElementById('curve_chart3'));
+
+            $("#loadingSpinner").hide();
+            $("#loadingSpinner2").hide();
+            $("#loadingSpinner3 ").hide();
 
             chart.draw(data, options);
             chart2.draw(data2, options);

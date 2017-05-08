@@ -3,3 +3,16 @@
     width: 95% !important;
     height: 380px !important;
 }
+
+#fixedTabsMenuBar{
+    width: 100%;
+    z-index: 148239084923;
+    position: fixed;
+    margin-bottom: 0px;!important;
+    bottom: 0px;
+    height: 60px;!important;
+    background-color: #DEDEDE;
+    border-top-color: black;
+    border-top: solid;
+    border-top-width: 1px;
+}

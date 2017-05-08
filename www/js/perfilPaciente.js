@@ -13,7 +13,12 @@ $(document).ready(function () {
     var token = JSON.parse(window.localStorage.getItem('user'));
 
     function updateConcejos() {
-        var table3 = $('#consejosTable').DataTable();
+        var table3 = $('#consejosTable').DataTable({
+            "bFilter": true,
+            "bInfo": false,
+            "bLengthChange": false,
+            "order": [[ 1, "desc" ]]
+        });
         table3.clear();
         patient.historiaClinica.consejos.forEach(function (consejo) {
             var date = new Date(consejo.fecha);
@@ -23,4 +28,7 @@ $(document).ready(function () {
 
     updateConcejos();
 
+    $("#icon2").click(function () {
+        window.location = "historialMedicionesPaciente.html";
+    });
 });

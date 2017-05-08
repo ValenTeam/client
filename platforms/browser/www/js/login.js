@@ -14,7 +14,13 @@ $(document).ready(function() {
         }
     }
     $("#loginButton").click( function() {
-        if (!verifyInputs()) return;
+        $("#loginButtonTxt").hide();
+        $("#loadingSpinner").show();
+        if (!verifyInputs()) {
+            $("#loginButtonTxt").show();
+            $("#loadingSpinner").hide();
+            return;
+        }
         var body = {
             "email":$("#emailField").val(),
             "role":$('input[name=optradio]:checked', '#loginForm').val(),
@@ -56,6 +62,8 @@ $(document).ready(function() {
                 }
             })
             .fail(function (xhr, status, error) {
+                $("#loadingSpinner").hide();
+                $("#loginButtonTxt").show();
                 swal(
                     'Oops...',
                     'ERROR: '+xhr.responseJSON.message,

@@ -3,6 +3,9 @@ $(document).ready(function() {
     var listaPacientes;
     var token = JSON.parse(window.localStorage.getItem('user'));
     var table = $('#tablaPacientes').DataTable({
+        "bFilter": true,
+        "bInfo": false,
+        "bLengthChange": false,
         select:         true
     });
     var settings = {
@@ -64,6 +67,18 @@ $(document).ready(function() {
         })
     });
 
+    $("#icon2").click(function () {
+        if (window.localStorage.getItem("paciente") == undefined){
+            swal(
+                'Oops...',
+                'Primero debes seleccionar un paciente',
+                'error'
+            )
+        }
+        else{
+            window.location = "historiaClinica.html";
+        }
+    });
 
 });
 
