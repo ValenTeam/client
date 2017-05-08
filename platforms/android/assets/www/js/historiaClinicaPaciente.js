@@ -188,4 +188,65 @@ $(document).ready(function () {
         })
     });
 
+    var settings = {
+        "async": true,
+        "crossDomain": true,
+        "url": window.hostUrl+"/medicos/id/"+token.userId,
+        "method": "GET",
+        "headers": {
+            "x-auth-token": token.token,
+            "cache-control": "no-cache"
+        }
+    }
+
+    $.ajax(settings).done(function (response) {
+        if (response.especialidad != null){
+            $("#marcapasosEx").show();
+            var settings = {
+                "async": true,
+                "crossDomain": true,
+                "url": window.hostUrl+"/marcapasos/"+patient.marcapasos,
+                "method": "GET",
+                "headers": {
+                    "x-auth-token": token.token
+                }
+            }
+
+            $.ajax(settings).done(function (response) {
+                $("#amplitud").val(response.amplitud);
+                $("#duracion").val(response.duracion);
+                $("#sens").val(response.sensibilidad);
+            });
+        }
+    });
+
+
+    $('#marcapasosForm').submit(function() {
+        $("#loadingSpinner4").show();
+        var data = {};
+        data.amplitud = $("#amplitud").val();
+        data.duracion = $("#duracion").val();
+        data.sensibilidad = $("#sens").val();
+        var settings = {
+            "async": true,
+            "crossDomain": true,
+            "data":JSON.stringify(data),
+            "url": window.hostUrl+"/marcapasos/"+patient.marcapasos,
+            "method": "PUT",
+            "headers": {
+                "content-type": "application/json",
+                "x-auth-token": token.token,
+                "cache-control": "no-cache"
+            }
+        }
+        $.ajax(settings).done(function (response) {
+            swal(
+                'Buen trabajo!',
+                'El marcapasos fue actualizado exitosamente',
+                'success'
+            )
+            $("#loadingSpinner4").hide();
+        });
+    });
+
 });
