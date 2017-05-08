@@ -122,6 +122,8 @@
                                 </li>
                                 <li><a href="#home" data-toggle="tab">Antecedentes</a>
                                 </li>
+                                <li id="marcapasosEx" style="display: none;"><a  href="#marcapasos" data-toggle="tab">Marcapasos</a>
+                                </li>
                             </ul>
 
                             <!-- Tab panes -->
@@ -136,6 +138,27 @@
                                 <div class="tab-pane fade" id="home">
                                     <h4>Antecedentes del paciente</h4>
                                     <p id="antecedentesPaciente"></p>
+                                </div>
+                                <div class="tab-pane fade" id="marcapasos">
+                                    <h4>Marcapasos</h4>
+                                    <form onsubmit="return false" id="marcapasosForm">
+                                        <div class="form-group">
+                                            <label for="amplitud">Amplitud</label>
+                                            <input type="number" class="form-control" id="amplitud" required="">
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="duracion">Duración</label>
+                                            <input type="number" class="form-control" id="duracion" required="">
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="sens">Sensibilidad</label>
+                                            <input type="number" class="form-control" id="sens" required="">
+                                        </div>
+                                        <button class="btn btn-success" type="submit">Actualizar
+                                            <img id="loadingSpinner4" style="text-align: center; display:none; margin: auto"
+                                                 src="http://www.nasa.gov/multimedia/videogallery/ajax-loader.gif" width="20" height="20"/>
+                                        </button>
+                                    </form>
                                 </div>
                             </div>
                         </div>
