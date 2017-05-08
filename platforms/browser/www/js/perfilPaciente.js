@@ -31,4 +31,27 @@ $(document).ready(function () {
     $("#icon2").click(function () {
         window.location = "historialMedicionesPaciente.html";
     });
+
+    var settings = {
+        "async": true,
+        "crossDomain": true,
+        "url": window.hostUrl+"/citas/"+patient.id,
+        "method": "GET",
+        "headers": {
+            "cache-control": "no-cache"
+        }
+    }
+
+    $.ajax(settings).done(function (response) {
+        var table4 = $('#citasTable').DataTable({
+            "bFilter": true,
+            "bInfo": false,
+            "bLengthChange": false,
+            "order": [[ 0, "desc" ]]
+        });
+        response.forEach(function (cita) {
+            var date = new Date(cita.fecha);
+            table4.row.add([date.toLocaleString(), cita.medico.name]).draw();
+        });
+    });
 });
